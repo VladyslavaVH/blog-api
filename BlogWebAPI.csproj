@@ -4,6 +4,8 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>BlogWebAPI</RootNamespace>
+    <DockerComposeProjectPath>docker-compose.dcproj</DockerComposeProjectPath>
+    <UserSecretsId>462c31b0-9f75-4e41-8e89-79e57977a032</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  blogwebapi:
+    image: ${DOCKER_REGISTRY-}blogwebapi
+    build:
+      context: .
+      dockerfile: ./Dockerfile
